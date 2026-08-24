@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class=" nav-home container d-flex justify-content-between mt-2 mb-2">
+        <div class="nav-home-left d-flex -1">
+            <div class="div-icon w-fit-content me-2  p-1 "><i class="fa-solid fa-shop text-white"></i></div>
+            <h4 class="fw-bold">lenny.</h4>
+        </div>
+
+        <div class="dropdown nav-home-mid d-flex p-1 rounded-3 ">
+            <button class="btn btn-secondary dropdown-toggle text-dark rounded-0" type="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                All Categories
+            </button>
+            <span class=" pt-2 ps-2 pe-2 color opacity-25">|</span>
+            <ul class="dropdown-menu ">
+                <li><a class="dropdown-item" href="#">Electronics</a></li>
+                <li><a class="dropdown-item" href="#">Fashion</a></li>
+                <li><a class="dropdown-item" href="#">Action Figure</a></li>
+                <li><a class="dropdown-item" href="#">Electronics</a></li>
+                <li><a class="dropdown-item" href="#">Book</a></li>
+                <li><a class="dropdown-item" href="#">Gaming</a></li>
+            </ul>
+            <form role="search">
+                <input class="form-control color" type="search" placeholder="Search on lenny.." aria-label="Search" />
+            </form>
+            <div class="nav-form-icon">
+                <i class="fa-brands fa-sistrix fa-2xs -3 color opacity-25"></i>
+            </div>
+        </div>
+
+        <div class=" nav-home-right d-flex">
+            <a href="cart.html" target="_blank"><i class="bi bi-cart-dash-fill color fs-4"></i></a>
+            <span class=" pt-2 ps-2 pe-2 color opacity-25">|</span>
+            <a href="login/register.html" target="_blank"><i class="bi bi-person-circle color fs-4"></i></a>
+        </div>
+    </nav>
+
+    <section class="container-fluid home-sec1 ">
+        <div class=" row container py-5 px-5 mx-5 justify-content-between">
+            <div class=" col-6 my-5 pt-4">
+                <h2 class="home-title fw-bold text-black">Upgrade Your Wardrobe With Our Collection</h2>
+                <p class="my-4 color">Eget risus sensesan viverra aliquam tortor diam nunc. Dis pellentesque lectus quis
+                    velit
+                    fusce
+                    senesan nunc dui tortor. Eu lorem ullamcorper diam non nunc arcu.</p>
+                <div class="d-flex home-sec1-btn ">
+                    <a href=""><button class="home-sec1-btn-L border-0 rounded-2  fw-bold text-white btn-padd">Buy
+                            Now</button></a>
+                    <a href="" class=" ms-2 "><button
+                            class="home-sec1-btn-R home-btn-R rounded-2  fw-bold btn-padd">View
+                            Detail</button></a>
+                </div>
+            </div>
+            <div class="col-4 div-home-img me-5">
+                <img src="images/home-sec1-img.png" alt="home-image" class="home-img  ">
+            </div>
+        </div>
+    </section>
+
+    <section class="container home-sec2">
+        <div class="d-flex justify-content-between mb-4 ">
+            <h2 class="fw-bold text-black">Featured Category</h2>
+            <a href=""><button class="home-sec2-btn-R home-btn-R rounded-2  fw-bold bg-white  py-2">View
+                    Detail</button></a>
+        </div>
+        <div class=" cards-home-sec2 d-flex justify-content-between ">
+            <div class="card-home-sec2 rounded-3  text-center ">
+                <div class=" icon-home-sec2"><i class="fa-solid fa-tablet-button "></i></div>
+                <h6 class="fw-bold text-black ">Electronics </h6>
+                <p class="color ">8,9k products</p>
+            </div>
+            <div class="card-home-sec2 rounded-3  text-center  ">
+                <div class="icon-home-sec2"><i class="fa-solid fa-shirt "></i></div>
+                <h6 class="fw-bold text-black ">Fashion </h6>
+                <p class="color ">19,2k products</p>
+            </div>
+            <div class="card-home-sec2 rounded-3  text-center">
+                <div class="icon-home-sec2"><i class="fa-solid fa-plane-up  "></i></div>
+                <h6 class="fw-bold text-black">Action Figure </h6>
+                <p class="color">4,1k products </p>
+            </div>
+            <div class="card-home-sec2 rounded-3  text-center ">
+                <div class="icon-home-sec2"><i class="fa-solid fa-headphones "></i></div>
+                <h6 class="fw-bold text-black ">Electronics </h6>
+                <p class="color ">22,9k products</p>
+            </div>
+            <div class="card-home-sec2 rounded-3  text-center  ">
+                <div class="icon-home-sec2"><i class="fa-solid fa-book "></i></div>
+                <h6 class="fw-bold text-black ">Book </h6>
+                <p class="color ">129k products</p>
+            </div>
+            <div class="card-home-sec2 rounded-3 text-center  ">
+                <div class="icon-home-sec2"><i class="fa-solid fa-gamepad"></i></div>
+                <h6 class="fw-bold text-black">Gaming </h6>
+                <p class="color">82k products</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="container home-sec3 ">
+        <div class="header-home-sec3 text-center">
+            <h2 class="fw-bold text-black">Popular Product on Lenny</h2>
+            <p class="color mt-3 pb-4">Lorem ipsum dolor sit amet consectetur.Integer cursus cursus in</p>
+        </div>
+        <div class="row cards-home-sec ">
+            <div class="card-home-sec3 ">
+                <div class="img-card-home-sec3 rounded-3"><img src="images/img1.png" alt=""
+                        class=" img-card-sec3 text-center ms-3">
+                </div>
+                <div class="content-card-home-sec3">
+                    <div class="d-flex justify-content-between pt-3">
+                        <h5 class="text-black fw-bold">Spy x Family Tshirt</h5>
+                        <h5 class="dolar-sec3 fw-bold">$26</h5>
+                    </div>
+                    <p class="color ">North Purwokerto</p>
+                    <p><i class="fa-solid fa-star"></i> <span class="text-black">4.8 <span
+                                class="color fw-bold ">.</span>
+                            1.238 Sold</span></p>
+                </div>
+            </div>
+
+            <div class="card-home-sec3">
+                <div class="img-card-home-sec3 rounded-3"><img src="images/img2.png" alt=""
+                        class=" img-card-sec3 text-center ms-3">
+                </div>
+                <div class="content-card-home-sec3">
+                    <div class="d-flex justify-content-between pt-3">
+                        <h5 class="text-black fw-bold">Green Man Jacket</h5>
+                        <h5 class="dolar-sec3 fw-bold">$49</h5>
+                    </div>
+                    <p class="color ">North Purwokerto</p>
+                    <p><i class="fa-solid fa-star"></i> <span class="text-black">4.8 <span
+                                class="color fw-bold ">.</span>
+                            1.238 Sold</span></p>
+                </div>
+            </div>
+            <div class="card-home-sec3">
+
+                <div class="img-card-home-sec3 rounded-3"><img src="images/img3.png" alt=""
+                        class=" img-card-sec3 text-center ms-5 ps-3">
+                </div>
+                <div class="content-card-home-sec3">
+                    <div class="d-flex justify-content-between pt-3">
+                        <h5 class="text-black fw-bold">Iphone 14 Pro Max</h5>
+                        <h5 class="dolar-sec3 fw-bold">$1200</h5>
+                    </div>
+                    <p class="color ">North Purwokerto</p>
+                    <p><i class="fa-solid fa-star"></i> <span class="text-black">4.8 <span
+                                class="color fw-bold ">.</span>
+                            1.238 Sold</span></p>
+                </div>
+            </div>
+            <div class="card-home-sec3">
+
+                <div class="img-card-home-sec3 rounded-3"><img src="images/img4.png" alt=""
+                        class=" img-card-sec3 text-center ms-4 ps-2">
+                </div>
+                <div class="content-card-home-sec3">
+                    <div class="d-flex justify-content-between pt-3">
+                        <h5 class="text-black fw-bold">Oversized Tshirt</h5>
+                        <h5 class="dolar-sec3 fw-bold">$48</h5>
+                    </div>
+                    <p class="color ">North Purwokerto</p>
+                    <p><i class="fa-solid fa-star"></i> <span class="text-black">4.8 <span
+                                class="color fw-bold ">.</span>
+                            1.238 Sold</span></p>
+                </div>
+            </div>
+            <div class="card-home-sec3">
+
+                <div class="img-card-home-sec3 rounded-3"><img src="images/img5.png" alt=""
+                        class=" img-card-sec3 text-center ms-4 ps-4">
+                </div>
+                <div class="content-card-home-sec3">
+                    <div class="d-flex justify-content-between pt-3">
+                        <h5 class="text-black fw-bold">Brown Woman Hoodie</h5>
+                        <h5 class="dolar-sec3 fw-bold">$49</h5>
+                    </div>
+                    <p class="color ">North Purwokerto</p>
+                    <p><i class="fa-solid fa-star"></i> <span class="text-black">4.8 <span
+                                class="color fw-bold ">.</span>
+                            1.238 Sold</span></p>
+                </div>
+            </div>
+            <div class="card-home-sec3">
+                <div class="img-card-home-sec3 rounded-3"><img src="images/img6.png" alt=""
+                        class=" img-card-sec3 text-center ms-4 ps-4">
+                </div>
+                <div class="content-card-home-sec3">
+                    <div class="d-flex justify-content-between pt-3">
+                        <h5 class="text-black fw-bold">Airpod Pro 2022</h5>
+                        <h5 class="dolar-sec3 fw-bold">$459</h5>
+                    </div>
+                    <p class="color ">North Purwokerto</p>
+                    <p><i class="fa-solid fa-star"></i> <span class="text-black">4.8 <span
+                                class="color fw-bold ">.</span>
+                            1.238 Sold</span></p>
+                </div>
+            </div>
+            <div class="card-home-sec3">
+                <div class="img-card-home-sec3 rounded-3"><img src="images/img7.png" alt="" class=" img-card-sec3 ms-2">
+                </div>
+                <div class="content-card-home-sec3">
+                    <div class="d-flex justify-content-between pt-3">
+                        <h5 class="text-black fw-bold">DJI Mini 3 Pro</h5>
+                        <h5 class="dolar-sec3 fw-bold">$842</h5>
+                    </div>
+                    <p class="color ">North Purwokerto</p>
+                    <p><i class="fa-solid fa-star"></i> <span class="text-black">4.8 <span
+                                class="color fw-bold ">.</span>
+                            1.238 Sold</span></p>
+                </div>
+            </div>
+            <div class="card-home-sec3">
+                <div class="img-card-home-sec3 rounded-3"><img src="images/img8.png" alt=""
+                        class=" img-card-sec3 text-center ms-4">
+                </div>
+                <div class="content-card-home-sec3">
+                    <div class="d-flex justify-content-between pt-3">
+                        <h5 class="text-black fw-bold">Ipad Pro Gen 3</h5>
+                        <h5 class="dolar-sec3 fw-bold">$338</h5>
+                    </div>
+                    <p class="color ">North Purwokerto</p>
+                    <p><i class="fa-solid fa-star"></i> <span class="text-black">4.8 <span
+                                class="color fw-bold ">.</span>
+                            1.238 Sold</span></p>
+                </div>
+            </div>
+            <a href="" class="text-center mt-4"><button
+                    class="home-sec1-btn-R home-btn-R rounded-2  fw-bold bg-white btn-padd">Load
+                    More</button></a>
+        </div>
+    </section>
+
+    <section class="container home-sec4 rounded-4 d-flex  mb-5 rel ">
+        <div><img src="images/home-sec4.png" alt="" class="img-home-sec4 abs"></div>
+        <div class="content-home-sec4 container ">
+            <div class="header-home-sec3 ">
+                <h2 class="fw-bold text-black mb-4 ">Ipad Air Gen 5</h2>
+                <p class="color  pb-4  lh-base ">Lorem ipsum dolor sit amet
+                    consectetur.Integer
+                    <br>
+                    cursus cursus in
+                    sapien quam risus sed diam.
+                </p>
+            </div>
+            <div class="d-flex home-sec1-btn ">
+                <a href=""><button class="home-sec1-btn-L border-0 rounded-2  fw-bold text-white btn-padd">Buy
+                        $900</button></a>
+                <a href="" class=" ms-3 "><button
+                        class="home-sec1-btn-R home-btn-R rounded-2  fw-bold btn-padd bg-white">View
+                        Detail</button></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="container home-sec5 mb-5 pb-2">
+        <div class="d-flex justify-content-between mb-5 mt-5 pt-5 pb-2">
+            <h2 class="fw-bold text-black">Lenny’s Article</h2>
+            <a href=""><button class="home-sec2-btn-R home-btn-R rounded-2  fw-bold bg-white py-2">View
+                    Detail</button></a>
+        </div>
+
+
+        <div class="d-flex justify-content-between">
+            <div class="card-home-sec5  ">
+                <div class="w-100"><img src="images/img1-sec5.png" alt="" class="img-home-sec5 rounded-3">
+                </div>
+                <div class="content-card-home-sec5 ps-2">
+                    <h6 class="color-sec mt-3">22 Dec 2022</h6>
+                    <h6 class="text-black fw-bold">Make your desk more neat and beautiful</h6>
+                    <p class="color  p-siz-sec5 w-100">Lorem ipsum dolor sit amet consectetur. Arcu
+                        pellentesque
+                        etiam
+                        scelerisque pharetra id. Maecenas diam eu amet cras</p>
+                </div>
+            </div>
+            <div class="card-home-sec5 ">
+                <div class="w-100"><img src="images/img2-sec5.png" alt="" class="img-home-sec5  rounded-3 ">
+                </div>
+                <div class="content-card-home-sec5 ps-2">
+                    <h6 class="color-sec mt-3">22 Dec 2022</h6>
+                    <h6 class="text-black fw-bold">What are the fashion trend in 2023?</h6>
+                    <p class="color p-siz-sec5 w-100">Lorem ipsum dolor sit amet consectetur. Arcu
+                        pellentesque
+                        etiam
+                        scelerisque pharetra id. Maecenas diam eu amet cras</p>
+                </div>
+            </div>
+            <div class="card-home-sec5 ">
+                <div class="w-100"><img src="images/img3-sec5.png" alt="" class="img-home-sec5 rounded-3">
+                </div>
+                <div class="content-card-home-sec5 ps-2">
+                    <h6 class="color-sec mt-3">22 Dec 2022</h6>
+                    <h6 class="text-black fw-bold">Tips for Work Life Balance</h6>
+                    <p class="color  p-siz-sec5 w-100">Lorem ipsum dolor sit amet consectetur. Arcu
+                        pellentesque
+                        etiam
+                        scelerisque pharetra id. Maecenas diam eu amet cras</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
