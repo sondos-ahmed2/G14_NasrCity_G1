@@ -1,0 +1,97 @@
+* {
+  font-family: "Plus Jakarta Sans", sans-serif;
+}
+:root {
+  --primary-color: #f4f4f2;
+  --secondary-color: #0f5132;
+  --success-color:#1abc6e;
+  --light-color: #f4f8fc;
+  --light-text-color: #8298ac;
+}
+.w-fit-content {
+  width: fit-content;
+}
+.color {
+  color: var(--light-text-color);
+}
+.div-icon {
+  background-color: var(--secondary-color);
+  height: fit-content;
+  border-radius: 10px;
+}
+.nav-home-mid {
+  background-color: var(--light-color);
+  width: 60%;
+}
+.nav-home-mid * {
+  background-color: var(--light-color);
+  border: none;
+}
+.form-control::placeholder {
+  font-size: 12px;
+  color: var(--light-blue-color);
+}
+.form-control:focus {
+  box-shadow: none;
+  background-color: var(--light-color);
+}
+
+.fa-brands {
+  font-size: 20px;
+}
+.nav-form-icon {
+  margin-left: 50%;
+}
+.check-payment{
+   height: 500px;
+   line-height: 13px;
+}
+ .bi-check-lg{
+    font-size: 80px;
+    color: #039752;
+ }
+ .check-payment-icon{
+   background-color: #f4f8fc;
+   width:100px;
+   height: 100px;
+   border-radius: 50%;
+ }
+ .check-payment-buttons{
+    width: 18%;
+    height: 4.5vh;
+ }
+ .btn-sm{
+    width: 130px;
+    height: 5vh;
+    background-color:#f4f8fc ;
+ }
+ .btn-home{
+    background-color: #0f5132;
+    color: white;
+ }
+.Footer{
+    height: 60vh;
+    width: 100%;
+    background-color: #f7f6f6;
+}
+.footer-flex{
+    height: 70%;
+    margin: auto;
+}
+.footer-left{
+    width: 24%;
+    margin-left: 10%;
+}
+.footer-right{
+    width: 60%;
+}
+.footer-right-1{
+    max-width: 62%;
+}
+.Footer-2{
+     width: 100%;
+     height: 7vh;
+     background-color:  #eeeeee;
+}
+
+
