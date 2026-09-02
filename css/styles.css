@@ -435,7 +435,7 @@
 }
 
 .cart-product-name {
-  font-size: 12px;
+  font-size: 14px;
   font-weight: bold;
   margin-bottom: 6px;
 }
@@ -447,7 +447,7 @@
 
 .cart-product-price {
   color: var(--success-color);
-  font-size: 11px;
+  font-size: 13px;
   font-weight: bold;
 }
 
@@ -541,7 +541,7 @@
 }
 
 .cart-summary-title {
-  font-size: 15px;
+  font-size: 16px;
   font-weight: bold;
 }
 
@@ -553,7 +553,7 @@
   margin-bottom: 13px;
 
   color: var(--light-text-color);
-  font-size: 9px;
+  font-size: 11px;
 }
 
 .cart-summary-row strong {
@@ -562,18 +562,16 @@
 
 .cart-line {
   border: 0;
-  border-top: 1px solid var(--border-color);
+  border-top: 2px solid var(--border-color);
   margin: 17px 0;
 }
 
 .cart-total {
-  font-size: 13px;
+  font-size: 14px;
   font-weight: bold;
 }
 
-.cart-total strong {
-  color: var(--success-color);
-}
+
 
 /* ================= SECURE PAYMENT ================= */
 
@@ -631,18 +629,13 @@
 
 .cart-view-btn {
   padding: 7px 13px;
-
-  background: #fff;
-
-  border: 1px solid #dce4ea;
+  border: 2px solid #039752;
   border-radius: 5px;
-
-  font-size: 9px;
+  font-size: 11px;
+  color:#039752;
+  background-color: white;
 }
 
-.cart-view-btn:hover {
-  background: var(--light-color);
-}
 
 .cart-product-card {
   border: 1px solid var(--border-color);
@@ -727,18 +720,13 @@
 
   margin: 35px 0 20px;
 
-  font-size: 11px;
+  
   color: var(--light-text-color);
 }
 
 .breadcrumb-area span {
   color: var(--success-color);
 }
-
-.breadcrumb-area i {
-  font-size: 8px;
-}
-
 .breadcrumb-area b {
   color: #222;
 }
@@ -843,11 +831,6 @@
   color: #f5a623;
   letter-spacing: 2px;
 }
-
-.sold {
-  color: var(--light-text-color);
-}
-
 .price {
   color: var(--success-color);
   font-size: 25px;
@@ -856,7 +839,7 @@
 
 .description {
   color: var(--light-text-color);
-  font-size: 12px;
+  font-size: 15px;
   line-height: 1.8;
   margin-top: 15px;
 }
@@ -868,10 +851,11 @@
 }
 
 .form-select {
+  
   font-size: 12px;
   padding: 9px;
 }
-
+ 
 /* ================= PRODUCT BUTTONS ================= */
 
 .product-buttons {
@@ -882,7 +866,8 @@
 
 .buy-btn,
 .cart-btn {
-  width: 50%;
+  width: 30%;
+  height: 5.5vh;
   font-size: 13px;
   font-weight: bold;
 }
@@ -921,13 +906,13 @@
 
 .product-tabs .nav-link {
   color: var(--light-text-color);
-  font-size: 12px;
+  font-size: 13px;
   padding: 15px 20px;
 }
 
 .product-tabs .nav-link.active {
-  color: var(--success-color);
-  border-bottom: 2px solid var(--success-color);
+  color: var(--secondary-color);
+  border-bottom: 2px solid  var(--secondary-color);
 }
 
 .details-section h3 {
@@ -936,8 +921,9 @@
 
 .details-text {
   color: var(--light-text-color);
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.8;
+  max-width: 60%;
 }
 
 /* ================= SPECIFICATIONS ================= */
@@ -960,7 +946,7 @@
   background: var(--primary-color);
   border-bottom: 1px solid #fff;
 
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .spec-row span {
@@ -971,11 +957,12 @@
 .system-list {
   padding: 0;
   list-style: none;
-
-  font-size: 11px;
-  color: #555;
+ color: var(--light-text-color);
+  font-size: 12px;
 }
-
+.box-list{
+  color: black;
+}
 .box-list li,
 .system-list li {
   margin-bottom: 12px;
@@ -1013,11 +1000,10 @@
 
   border: 1px solid #eee;
   border-radius: 50%;
-
   display: flex;
   justify-content: center;
   align-items: center;
-
+  box-shadow: 0 1px 15px rgba(0, 0, 0, 0.1);
   font-size: 9px;
 }
 
@@ -1032,18 +1018,28 @@
   margin: 5px 0;
 }
 
-.badge {
-  font-size: 8px;
+.merchant-badge{
+  gap: 10px;
+  font-size: 10px;
 }
-
+.merchant-badge-background{
+  color:   #1abc6e;
+  background-color:#deffe3;
+  height: 3.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 105px;
+  border-radius: 4px
+}
 .merchant-buttons {
   display: flex;
   gap: 10px;
 }
 
 .merchant-buttons .btn {
-  border: 1px solid var(--success-color);
-  color: var(--success-color);
+  border: 1px solid  #0f5132;
+  color:  #0f5132;
   font-size: 11px;
 }
 
@@ -1070,7 +1066,9 @@
   align-items: center;
   justify-content: center;
 }
-
+.review-rate{
+  font-size: 10px;
+}
 .circle {
   width: 70px;
   height: 70px;
@@ -1089,6 +1087,10 @@
   margin-top: 8px;
   color: var(--light-text-color);
   font-size: 9px;
+}
+.review-date{
+  font-size: 11px;
+   color:#8298ac
 }
 
 .rating-bars > div {
@@ -1113,7 +1115,7 @@
 /* ================= FILTER ================= */
 
 .filter-box {
-  border: 1px solid #eee;
+  border: 2px solid #eee;
   padding: 15px;
   border-radius: 7px;
 
