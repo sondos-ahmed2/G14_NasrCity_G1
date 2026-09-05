@@ -84,6 +84,11 @@
 .card-home-sec2 {
   border: 3px solid var(--light-color);
   padding: 2% 3%;
+  transition: all 0.3s;
+}
+.card-home-sec2:hover {
+  transform: translateY(-5px);
+  box-shadow: 0.5px 0.5px 5px 0.1px #418666;
 }
 
 .home-sec3 {
@@ -571,8 +576,6 @@
   font-weight: bold;
 }
 
-
-
 /* ================= SECURE PAYMENT ================= */
 
 .cart-secure-payment {
@@ -607,7 +610,6 @@
   background: var(--secondary-color);
   color: #fff;
 
-  
   font-weight: bold;
 }
 
@@ -632,10 +634,9 @@
   border: 2px solid #039752;
   border-radius: 5px;
   font-size: 11px;
-  color:#039752;
+  color: #039752;
   background-color: white;
 }
-
 
 .cart-product-card {
   border: 1px solid var(--border-color);
@@ -720,7 +721,6 @@
 
   margin: 35px 0 20px;
 
-  
   color: var(--light-text-color);
 }
 
@@ -851,11 +851,10 @@
 }
 
 .form-select {
-  
   font-size: 12px;
   padding: 9px;
 }
- 
+
 /* ================= PRODUCT BUTTONS ================= */
 
 .product-buttons {
@@ -912,7 +911,7 @@
 
 .product-tabs .nav-link.active {
   color: var(--secondary-color);
-  border-bottom: 2px solid  var(--secondary-color);
+  border-bottom: 2px solid var(--secondary-color);
 }
 
 .details-section h3 {
@@ -957,10 +956,10 @@
 .system-list {
   padding: 0;
   list-style: none;
- color: var(--light-text-color);
+  color: var(--light-text-color);
   font-size: 12px;
 }
-.box-list{
+.box-list {
   color: black;
 }
 .box-list li,
@@ -1018,19 +1017,19 @@
   margin: 5px 0;
 }
 
-.merchant-badge{
+.merchant-badge {
   gap: 10px;
   font-size: 10px;
 }
-.merchant-badge-background{
-  color:   #1abc6e;
-  background-color:#deffe3;
+.merchant-badge-background {
+  color: #1abc6e;
+  background-color: #deffe3;
   height: 3.5vh;
   display: flex;
   align-items: center;
   justify-content: center;
   width: 105px;
-  border-radius: 4px
+  border-radius: 4px;
 }
 .merchant-buttons {
   display: flex;
@@ -1038,8 +1037,8 @@
 }
 
 .merchant-buttons .btn {
-  border: 1px solid  #0f5132;
-  color:  #0f5132;
+  border: 1px solid #0f5132;
+  color: #0f5132;
   font-size: 11px;
 }
 
@@ -1066,7 +1065,7 @@
   align-items: center;
   justify-content: center;
 }
-.review-rate{
+.review-rate {
   font-size: 10px;
 }
 .circle {
@@ -1088,9 +1087,9 @@
   color: var(--light-text-color);
   font-size: 9px;
 }
-.review-date{
+.review-date {
   font-size: 11px;
-   color:#8298ac
+  color: #8298ac;
 }
 
 .rating-bars > div {
